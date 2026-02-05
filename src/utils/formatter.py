@@ -69,7 +69,7 @@ def format_markdown_table_multiple(students_list: list) -> str:
         return "No students found."
     
     markdown = "| ID | Name | Email | Department | Age |\n"
-    markdown += "|----|----|-------|------------|-----|\n"
+    markdown +="|----|------|-------|------------|-----|\n"
     
     for student in students_list:
         markdown += f"| {student.get('id', 'N/A')} | {student.get('name', 'N/A')} | {student.get('email', 'N/A')} | {student.get('department', 'N/A')} | {student.get('age', 'N/A')} |\n"

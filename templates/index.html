@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Student Chatbot</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Student Chatbot</h1>
+
+        <div id="ops" class="ops">
+            <button data-msg="List students">List Students</button>
+            <button data-msg="Create student name=John age=20">Create Student</button>
+            <button data-msg="Update student id=1 name=Jane">Update Student</button>
+            <button data-msg="Delete student id=1">Delete Student</button>
+        </div>
+
+        <div id="chat" class="chat" aria-live="polite"></div>
+
+        <form id="chat-form" class="chat-form">
+            <input id="message" placeholder="Type message or use buttons above" autocomplete="off">
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <script src="/static/js/chat.js"></script>
+</body>
+
+</html>
