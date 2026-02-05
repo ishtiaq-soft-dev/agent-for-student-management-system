@@ -1,0 +1,6 @@
+# Basic requirements for a Flask app using Flask-SQLAlchemy
+flask
+flask-SQLAlchemy
+python-dotenv
+langchain
+langchain_groq
