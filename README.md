@@ -30,7 +30,7 @@ A Flask-based AI chatbot for managing student records using LangChain and Groq A
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/ishtiaq-soft-dev/agent-for-student-management-system.git
 cd Student_Bot_flask
 ```
 
